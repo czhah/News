@@ -1,0 +1,33 @@
+ext {
+    android = [
+            compileSdkVersion: 26,
+            minSdkVersion: 19,
+            targetSdkVersion: 26,
+            versionCode: 1,
+            versionName: "1.0",
+
+            buildToolsVersion: "26.1.0",
+    ]
+
+    dependencies = [
+            lib_constraint: 'com.android.support.constraint:constraint-layout:1.1.2',
+            lib_appcompat_v7: "com.android.support:appcompat-v7:$ext.android.buildToolsVersion",
+            lib_support_v4 : "com.android.support:support-v4:$ext.android.buildToolsVersion",
+            lib_design               : "com.android.support:design:$ext.android.buildToolsVersion",
+            lib_recyclerview         : "com.android.support:recyclerview-v7:$ext.android.buildToolsVersion",
+            lib_retrofit2            : 'com.squareup.retrofit2:retrofit:2.3.0',
+            lib_retrofit2_gson       : 'com.squareup.retrofit2:converter-gson:2.3.0',
+            lib_retrofit2_rxjava2    : 'com.squareup.retrofit2:adapter-rxjava2:2.3.0',
+            lib_persistentCookieJar  : 'com.github.franmontiel:PersistentCookieJar:v1.0.1',
+            lib_rxjava2              : 'io.reactivex.rxjava2:rxjava:2.1.1',
+            lib_rxjava2_rxandroid    : 'io.reactivex.rxjava2:rxandroid:2.0.1',
+            lib_rxpermissions        : 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.4@aar',
+            lib_okhttp3              : 'com.squareup.okhttp3:okhttp:3.9.0',
+            lib_okhttp3_logging      : 'com.squareup.okhttp3:logging-interceptor:3.9.0',
+            lib_fastjson : 'com.alibaba:fastjson:1.1.68.android',
+            lib_greendao: 'org.greenrobot:greendao:3.2.2',
+            lib_glide                : 'com.github.bumptech.glide:glide:4.7.1',
+            lib_glide_compiler       : 'com.github.bumptech.glide:compiler:4.7.1',
+            lib_glide_transformations: 'jp.wasabeef:glide-transformations:2.0.1',
+    ]
+}
